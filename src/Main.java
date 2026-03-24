@@ -6,6 +6,7 @@ public class Main {
         String user="RIBERA";
         String password="ribera";
 
+
         try (Connection conn = DriverManager.getConnection(url,user,password)){
             String sql="UPDATE empleado2 SET salario=? WHERE nombre=?";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
