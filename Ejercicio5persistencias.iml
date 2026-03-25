@@ -17,5 +17,14 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="ojdbc17" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Grado superior/Programacion/ojdbc17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

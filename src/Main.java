@@ -10,8 +10,8 @@ public class Main {
         try (Connection conn = DriverManager.getConnection(url,user,password)){
             String sql="UPDATE empleado2 SET salario=? WHERE nombre=?";
             PreparedStatement preparedStatement = conn.prepareStatement(sql);
-            preparedStatement.setDouble(1, 4500.0);
-            preparedStatement.setString(2, "Riber");
+            preparedStatement.setDouble(1, 4000.0);
+            preparedStatement.setString(2, "Antonio");
             int filas = preparedStatement.executeUpdate();
             System.out.println("Filas actualizadas: " + filas);
         }catch (SQLException e){
